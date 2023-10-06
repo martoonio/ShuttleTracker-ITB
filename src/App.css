@@ -1,0 +1,75 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root{
+  height: 60vh;
+}
+
+/* string of map container */
+.leaflet-container {
+  height: 100vh;
+}
+
+.cluster-icon{
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+}
+
+.static-map{
+  width: 250px;
+  height: 250px;
+}
+
+.btn-primary{
+  margin: 0; /* Menghapus margin agar tombol tidak memiliki jarak dari tepi layar */
+  background-color: #fff;
+  font-weight: bold;
+  border: 5px solid #054C67;
+  font-family: sans-serif;
+  border-radius: 25px;
+  font-size: large;
+  width: 300px;
+  height: 50px;
+  position: fixed; /* Menggunakan position: fixed agar tombol tetap di tempatnya saat digulir */
+  top: 10%; /* Mengatur posisi vertikal ke 50% dari atas layar */
+  left: 50%; /* Mengatur posisi horizontal ke 50% dari kiri layar */
+  transform: translate(-50%, -50%); /* Menggeser tombol ke tengah dengan menggunakan transform */
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+  text-shadow: -2px 0 #054C67, 0 2px #054C67, 2px 0 #054C67, 0 -2px #054C67;
+  text-justify: center;
+  font-stretch: expanded;
+  color: #ffffff;
+}
+
+.btn-secondary{
+  margin: 0; /* Menghapus margin agar tombol tidak memiliki jarak dari tepi layar */
+  background-color: #fff;
+  font-weight: bold;
+  border: 5px solid #054C67;
+  font-family: sans-serif;
+  border-radius: 25px;
+  font-size: large;
+  width: 300px;
+  height: 200px;
+  position: fixed; /* Menggunakan position: fixed agar tombol tetap di tempatnya saat digulir */
+  top: 85%; /* Mengatur posisi vertikal ke 50% dari atas layar */
+  left: 50%; /* Mengatur posisi horizontal ke 50% dari kiri layar */
+  transform: translate(-50%, -50%); /* Menggeser tombol ke tengah dengan menggunakan transform */
+  z-index: 1000;
+}
